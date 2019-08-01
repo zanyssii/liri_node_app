@@ -1,0 +1,29 @@
+{
+  "name": "liri_node_app",
+  "version": "1.0.0",
+  "description": "LIRI Bot is a CLI APP that utilizes the Spotify, IMDB and Bandsintown API and gives the user the option to search for a Song, a Movie or Band/Artist. When searching for a Song or Movie, the user will get info regarding that Song or Movie. When searching for a Band/Artist, the user will be given info regarding the upcoming performances. This is a simple APP to demonstrate the usage of the below technologies.",
+  "main": "liri.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "colors": "^1.3.3",
+    "dotenv": "^6.2.0",
+    "inquirer": "^6.2.2",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanyssii/liri_node_app"
+  },
+  "keywords": [],
+  "author": "Inna Atamanova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanyssii/liri_node_app/issues"
+  },
+  "homepage": "https://github.com/zanyssii/liri_node_app#readme"
+}
